@@ -1,0 +1,49 @@
+:root{
+    --red: #d1151e;
+    --black: #000;
+    --rose: #f59993;
+    --skin:#fadcb6;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main__container {
+    width: 100vw;
+    height: 100vh;
+    background: var(--red);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head {
+    width: 200px;
+    height: 190px;
+    background: var(--black);
+    border-radius: 50%;
+    position: relative;
+}
+.face {
+    width: 180px;
+    height: 150px;
+    border-radius: 50% 50% 45% 45% ;
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    background: var(--skin);
+}
+.eyebrow {
+    position: absolute;
+    top: 25px;
+    width: 20px;
+    height: 10px;
+    border-radius: 25px;
+    border-top: 4px solid var(--black);
+}
+.eyebrow--left {
+    left: 20px;
+}
+.eyebrow--rigth {
+    right: 60px;
+}
