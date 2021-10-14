@@ -1,2 +1,2 @@
 # onlyDiv
-Dibujando usando elementos div y css
+Dibujando unicamente con el elemento div y css
